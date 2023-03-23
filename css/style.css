@@ -1,0 +1,57 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+header {
+    width: 100%;
+    padding: 47px 75px;
+    background-color: #13345B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 52px;
+}
+
+li {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+li:hover {
+    background-color: rgb(174, 16, 174);
+    transition: 1s;
+}
+
+i {
+    font-size: 32px;
+}
+
+
+/* MAIN */
+
+main{
+    width: 90%;
+    /* height: 109px; */
+    margin: 114px 75px 128px 75px;
+    border: 5px solid red;
+
+}
+
+
+
+h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #13345B;
+}
