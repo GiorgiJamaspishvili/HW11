@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,87 +23,157 @@
 
     <div class="container">
 
-        
-    
-<!-- Header -->
 
 
-<header>
-<img src="pics/Rectangle 19.png" alt="">
-
-<nav>
-    <ul>
-        <li style="color: #FDD504;">Home</li>
-
-        <li style="color: #FDD504;"> Product</li>
-
-        <li style="color: #FD0404;"> contact</li>
-    </ul>
-</nav>
-
-<i class="fa-solid fa-cart-shopping" style="color: #FDD504;"></i>
-
-</header>
-
-    
-<!-- MAIN -->
+        <!-- Header -->
 
 
-<main>
+        <header>
+            <img src="pics/Rectangle 19.png" alt="">
 
-<h2>Contact Us</h2>
+            <nav>
+                <ul>
+                    <li style="color: #FDD504;">Home</li>
 
+                    <li style="color: #FDD504;"> Product</li>
 
-<div class="div_personalinfo">
-    <form action="">
+                    <li style="color: #FD0404;"> contact</li>
+                </ul>
+            </nav>
 
-        <div class="div_name">
-            <label for="fname" class="contact_info">FIRST NAME</label>
-            <input type="text" id="fname" name="fname" value="First Name">
+            <i class="fa-solid fa-cart-shopping" style="color: #FDD504;"></i>
 
-            <label for="fname" class="contact_info">LAST NAME</label>
-            <input type="text" id="fname" name="fname" value="Last Name">
-        </div>
-
-       <div class="div_agecontact">
-
-
-        <label for="fname" class="contact_info">AGE</label>
-        <input type="text" id="fname" name="fname" value="Age">
-
-        <label for="lname" class="contact_info">EMAIL</label>
-        <input type="text" id="lname" name="lname" value="Email">
-       </div>
+        </header>
 
 
-       
+        <!-- MAIN -->
 
 
-    </form>
+        <main>
+
+            <h2>Contact Us</h2>
+
+
+            <div class="div_personalinfo">
+
+                <form>
+
+
+                    <div class="contact_div">
+
+                        <div class="div_name">
+
+                            <label for="fname" class="contact_info">FIRST NAME</label>
+                            <input type="text" id="fname" name="fname" value="First Name" class="cont_input"
+                                placeholder="First Name">
+
+                            <label for="ageage" class="contact_info">AGE</label>
+                            <input type="number" id="ageage" name="ageage" value="Age" class="cont_input" required>
+
+                        </div>
+
+                        <div class="div_agecontact">
 
 
 
 
 
-</div>
+                            <label for="lname" class="contact_info">LAST NAME</label>
+                            <input type="text" id="lname" name="lname" value="Last Name" class="cont_input">
 
+                            <label for="email" class="contact_info">EMAIL</label>
+                            <input type="email" id="email" name="email" value="Email" class="cont_input">
+                        </div>
 
-
+                    </div>
 
 
 
 
 
 
-
-</main>
-
+                    <div class="div_select">
 
 
+                        <h3>The schedule of work you are interested in</h3>
 
-</div>
 
 
-    
+                        <input type="radio" id="Full-Time" name="schedule" value="Full-Time">
+                        <label for="Full-Time">Full-Time</label>
+
+
+
+
+                        <input type="radio" id="Part-Time" name="schedule" value="Part-Time">
+                        <label for="Part-Time">Part-Time</label>
+
+
+
+
+                        <input type="radio" id="Remote" name="schedule" value="Remote">
+
+                        <label for="Remote">Remote</label>
+
+
+
+
+                        <h4>Select the programming languages, you know</h4>
+
+                        <input type="checkbox" id="html" name="fav_language" value="HTML">
+                        <label for="html">HTML</label>
+
+
+                        <input type="checkbox" id="css" name="fav_language" value="CSS">
+                        <label for="css">CSS</label>
+
+
+                        <input type="checkbox" id="javascript" name="fav_language" value="JavaScript">
+                        <label for="javascript">JavaScript</label>
+
+
+                        <h5>Attach any supporting documents (resume, CV, cover letter, etc.) </h5>
+
+                        <input type="file" class="file">
+
+
+
+                    </div>
+
+
+
+
+                    <input type="submit" value="SEND MESSAGE">
+
+                    <button type="reset">RESET</button>
+
+
+
+
+                </form>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </main>
+
+
+
+
+    </div>
+
+
+
 </body>
+
 </html>

@@ -38,7 +38,7 @@ i {
 
 /* MAIN */
 
-main{
+main {
     width: 90%;
     /* height: 109px; */
     margin: 114px 75px 128px 75px;
@@ -46,12 +46,100 @@ main{
 
 }
 
-
-
 h2 {
+    margin: 0 500px 88px 500px;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 58px;
     color: #13345B;
+}
+
+.contact_div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.div_name {
+    display: flex;
+    flex-direction: column;
+}
+
+.div_agecontact {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact_info {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #13345B;
+}
+
+.cont_input {
+    width: 550px;
+    height: 58px;
+    background-color: #B3E9F5;
+    border: none;
+    color: #878C92;
+    font-size: 16px;
+}
+
+
+
+.div_select {
+    width: 70%;
+    height: 467px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border: solid 5px red;
+
+}
+
+
+
+h3 {
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #15C1E7;
+
+}
+
+
+h4 {
+    margin-top: 64px;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #15C1E7;
+}
+
+
+h5 {
+    margin-top: 64px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #15C1E7;
+}
+
+
+.file{
+    margin-top: 40px;
+    font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+
 }
